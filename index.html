@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEETREM Energy Systems - Reliable Power Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>DEETREM</h2>
+                <span>Energy Systems</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#admin" class="nav-link admin-btn">Admin</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">DEETREM Power Stations</h1>
+            <p class="hero-subtitle">Reliable energy for homes & small businesses</p>
+            <p class="hero-description">Advanced power solutions with solar compatibility. Uninterrupted power since 2020.</p>
+            <div class="hero-actions">
+                <a href="#products" class="btn btn-primary">Explore Power Stations</a>
+                <a href="#contact" class="btn btn-secondary">Request Quote</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <img src="assets/hero-power-station.webp" alt="DEETREM Power Station" loading="lazy">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <h2 class="section-title">About DEETREM Energy Systems</h2>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p>Founded in 2020, DEETREM Energy Systems is dedicated to providing reliable, modern, and sustainable power solutions for Nigerian homes and businesses.</p>
+                    <p>Our flagship <strong>DEETREM Power Station</strong> series supports both solar and grid charging, ensuring uninterrupted energy when you need it most.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <span class="feature-icon">⚡</span>
+                            <span>Solar & Grid Charging</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">🔋</span>
+                            <span>Long-lasting Batteries</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">🛡️</span>
+                            <span>1-Year Warranty</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>500+</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5</h3>
+                        <p>Power Models</p>
+                    </div>
+                    <div class="stat">
+                        <h3>98%</h3>
+                        <p>Customer Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products section-padding">
+        <div class="container">
+            <h2 class="section-title">DEETREM Power Station Models</h2>
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="capacity-filter">Capacity:</label>
+                    <select id="capacity-filter">
+                        <option value="all">All Models</option>
+                        <option value="300">DT-300</option>
+                        <option value="500">DT-500</option>
+                        <option value="700">DT-700</option>
+                        <option value="1000">DT-1000</option>
+                        <option value="2000">DT-2000</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="solar-filter">Solar Panels:</label>
+                    <select id="solar-filter">
+                        <option value="all">All</option>
+                        <option value="0">Without Solar</option>
+                        <option value="1">1 Panel</option>
+                        <option value="2">2 Panels</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="stock-filter">Stock:</label>
+                    <select id="stock-filter">
+                        <option value="all">All</option>
+                        <option value="in_stock">In Stock</option>
+                        <option value="out_of_stock">Out of Stock</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="products-grid" id="products-grid">
+                <!-- Products loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-content">
+                <!-- Product details loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact DEETREM</h3>
+                    <div class="contact-item">
+                        <strong>WhatsApp:</strong> +234 811 202 3440
+                    </div>
+                    <div class="contact-item">
+                        <strong>Email:</strong> deetremenergysystems@gmail.com
+                    </div>
+                    <div class="contact-item">
+                        <strong>Address:</strong> Ilorin, Kwara State, Nigeria
+                    </div>
+                    <div class="contact-item">
+                        <strong>Business Hours:</strong> Mon - Sat: 8:00 AM - 6:00 PM
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Quick Inquiry</h3>
+                    <form id="general-inquiry-form">
+                        <input type="text" id="inquiry-name" placeholder="Your Name" required>
+                        <input type="tel" id="inquiry-phone" placeholder="Your Phone" required>
+                        <select id="inquiry-product">
+                            <option value="">Select Product Interest</option>
+                            <option value="DT-300">DT-300</option>
+                            <option value="DT-500">DT-500</option>
+                            <option value="DT-700">DT-700</option>
+                            <option value="DT-1000">DT-1000</option>
+                            <option value="DT-2000">DT-2000</option>
+                        </select>
+                        <textarea id="inquiry-message" placeholder="Your message..." rows="4" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send via WhatsApp</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admin Section -->
+    <section id="admin" class="admin section-padding" style="display: none;">
+        <div class="container">
+            <h2 class="section-title">Admin - Product Management</h2>
+            
+            <div class="admin-tabs">
+                <button class="tab-btn active" data-tab="upload">Upload Product</button>
+                <button class="tab-btn" data-tab="manage">Manage Products</button>
+            </div>
+
+            <!-- OCR Upload Tab -->
+            <div id="upload-tab" class="tab-content active">
+                <div class="upload-area" id="upload-area">
+                    <div class="upload-placeholder">
+                        <span class="upload-icon">📁</span>
+                        <p>Drag & drop product images here</p>
+                        <p>or</p>
+                        <button class="btn btn-primary" id="select-images-btn">Select Images</button>
+                        <input type="file" id="product-images" accept="image/*" multiple style="display: none;">
+                    </div>
+                </div>
+
+                <div class="ocr-results" id="ocr-results" style="display: none;">
+                    <h3>OCR Results & Product Details</h3>
+                    <div class="ocr-preview">
+                        <div class="image-preview">
+                            <img id="preview-image" src="" alt="Product preview">
+                            <div id="ocr-overlay"></div>
+                        </div>
+                        <div class="parsed-specs">
+                            <form id="product-form">
+                                <div class="form-group">
+                                    <label>Model:</label>
+                                    <input type="text" id="product-model" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Title:</label>
+                                    <input type="text" id="product-title" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Price (NGN):</label>
+                                    <input type="number" id="product-price" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Battery Capacity (Wh):</label>
+                                    <input type="number" id="battery-capacity">
+                                </div>
+                                <div class="form-group">
+                                    <label>AC Output (W):</label>
+                                    <input type="number" id="ac-output">
+                                </div>
+                                <div class="form-group">
+                                    <label>Solar Panel Count:</label>
+                                    <input type="number" id="solar-count" min="0" max="4">
+                                </div>
+                                <div class="form-group">
+                                    <label>Panel Wattage:</label>
+                                    <input type="number" id="panel-wattage">
+                                </div>
+                                <div class="form-group">
+                                    <label>Charge Controller:</label>
+                                    <select id="charge-controller">
+                                        <option value="">Select...</option>
+                                        <option value="40A">40A</option>
+                                        <option value="50A">50A</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Stock Status:</label>
+                                    <select id="stock-status">
+                                        <option value="in_stock">In Stock</option>
+                                        <option value="out_of_stock">Out of Stock</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Add to Product List</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Manage Products Tab -->
+            <div id="manage-tab" class="tab-content">
+                <div class="admin-actions">
+                    <button class="btn btn-primary" id="export-json">Export products.json</button>
+                    <button class="btn btn-secondary" id="import-json">Import products.json</button>
+                    <input type="file" id="json-file" accept=".json" style="display: none;">
+                </div>
+                <div class="products-list" id="admin-products-list">
+                    <!-- Admin product list loaded here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DEETREM Energy Systems</h3>
+                    <p>Reliable power solutions for modern living and business operations.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#products" data-filter="300">DT-300</a></li>
+                        <li><a href="#products" data-filter="500">DT-500</a></li>
+                        <li><a href="#products" data-filter="700">DT-700</a></li>
+                        <li><a href="#products" data-filter="1000">DT-1000</a></li>
+                        <li><a href="#products" data-filter="2000">DT-2000</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#about">About DEETREM</a></li>
+                        <li><a href="#" id="show-admin">Admin Access</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DEETREM Energy Systems Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="whatsapp-float">
+        <a href="#" id="whatsapp-general" class="whatsapp-link">
+            <span>💬</span>
+        </a>
+    </div>
+
+    <!-- Message Sent Notification -->
+    <div id="message-sent" class="notification" style="display: none;">
+        <p>A WhatsApp window/tab has opened. Please send the message to complete your request.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4/dist/tesseract.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

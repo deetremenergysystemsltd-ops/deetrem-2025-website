@@ -1,0 +1,152 @@
+[
+  {
+    "id": "dt-300",
+    "model": "DT-300",
+    "title": "DEETREM DT-300 Power Station",
+    "priceNGN": 120000,
+    "currency": "NGN",
+    "stockCount": 25,
+    "status": "in_stock",
+    "shortDescription": "Compact 300Wh power station for mobile devices and small appliances",
+    "specs": {
+      "batteryCapacityWh": 300,
+      "acOutputWatts": 300,
+      "outputVoltage": "220V",
+      "inverterType": "Modified sine wave",
+      "ports": ["AC", "USB-A", "12V DC"],
+      "weightKg": 3.5,
+      "dimensionsCm": "20x15x15",
+      "solarPanelCount": 1,
+      "eachPanelWatt": 200,
+      "chargeController": "40A",
+      "notes": "Perfect for camping and emergency power"
+    },
+    "deliveryOptions": {
+      "payOnDelivery": true,
+      "payBeforeDelivery": true,
+      "deposit50": true
+    },
+    "images": ["assets/products/dt300-1.webp", "assets/products/dt300-2.webp"],
+    "createdAt": "2025-01-15T00:00:00Z"
+  },
+  {
+    "id": "dt-500",
+    "model": "DT-500",
+    "title": "DEETREM DT-500 Power Station",
+    "priceNGN": 140000,
+    "currency": "NGN",
+    "stockCount": 18,
+    "status": "in_stock",
+    "shortDescription": "Portable 500Wh power station with pure sine wave inverter",
+    "specs": {
+      "batteryCapacityWh": 500,
+      "acOutputWatts": 500,
+      "outputVoltage": "220-240V",
+      "inverterType": "Modified sine wave",
+      "ports": ["AC", "USB-A", "12V DC"],
+      "weightKg": 6.2,
+      "dimensionsCm": "25x18x18",
+      "solarPanelCount": 1,
+      "eachPanelWatt": 200,
+      "chargeController": "40A",
+      "notes": "Includes 1x200W solar panel, ideal for home backup"
+    },
+    "deliveryOptions": {
+      "payOnDelivery": true,
+      "payBeforeDelivery": true,
+      "deposit50": true
+    },
+    "images": ["assets/products/dt500-1.webp", "assets/products/dt500-2.webp"],
+    "createdAt": "2025-01-20T00:00:00Z"
+  },
+  {
+    "id": "dt-700",
+    "model": "DT-700",
+    "title": "DEETREM DT-700 Power Station",
+    "priceNGN": 170000,
+    "currency": "NGN",
+    "stockCount": 12,
+    "status": "in_stock",
+    "shortDescription": "700Wh power station with solar charging capability",
+    "specs": {
+      "batteryCapacityWh": 700,
+      "acOutputWatts": 700,
+      "outputVoltage": "220-240V",
+      "inverterType": "Modified sine wave",
+      "ports": ["AC", "USB-A", "12V DC"],
+      "weightKg": 8.5,
+      "dimensionsCm": "28x20x20",
+      "solarPanelCount": 1,
+      "eachPanelWatt": 200,
+      "chargeController": "40A",
+      "notes": "Fast charging"
+    },
+    "deliveryOptions": {
+      "payOnDelivery": true,
+      "payBeforeDelivery": true,
+      "deposit50": true
+    },
+    "images": ["assets/products/dt700-1.webp", "assets/products/dt700-2.webp"],
+    "createdAt": "2025-02-10T00:00:00Z"
+  },
+  {
+    "id": "dt-1000",
+    "model": "DT-1000",
+    "title": "DEETREM DT-1000 Power Station",
+    "priceNGN": 220000,
+    "currency": "NGN",
+    "stockCount": 8,
+    "status": "low_stock",
+    "shortDescription": "High-capacity 1000Wh power station with dual solar input",
+    "specs": {
+      "batteryCapacityWh": 1000,
+      "acOutputWatts": 1000,
+      "outputVoltage": "220-240V",
+      "inverterType": "Modified sine wave",
+      "ports": ["AC x2", "USB-A x2", "12V DC"],
+      "weightKg": 12.5,
+      "dimensionsCm": "32x22x22",
+      "solarPanelCount": 2,
+      "eachPanelWatt": 200,
+      "chargeController": "60A",
+      "notes": "Supports dual solar panel input for faster charging"
+    },
+    "deliveryOptions": {
+      "payOnDelivery": true,
+      "payBeforeDelivery": true,
+      "deposit50": true
+    },
+    "images": ["assets/products/dt1000-1.webp", "assets/products/dt1000-2.webp"],
+    "createdAt": "2025-02-15T00:00:00Z"
+  },
+  {
+    "id": "dt-2000",
+    "model": "DT-2000",
+    "title": "DEETREM DT-2000 Power Station",
+    "priceNGN": 540000,
+    "currency": "NGN",
+    "stockCount": 0,
+    "status": "low stock",
+    "shortDescription": "Professional 2000Wh power station for home and business use",
+    "specs": {
+      "batteryCapacityWh": 2000,
+      "acOutputWatts": 2000,
+      "outputVoltage": "220-240V",
+      "inverterType": "Modified sine wave",
+      "ports": ["AC x2", "USB-A x3", "12V DC", "Anderson"],
+      "weightKg": 22.0,
+      "dimensionsCm": "40x28x28",
+      "solarPanelCount": 2,
+      "eachPanelWatt": 200,
+      "chargeController": "60A",
+      "notes": "Professional grade with expandable battery options"
+    },
+    "deliveryOptions": {
+      "payOnDelivery": false,
+      "payBeforeDelivery": true,
+      "deposit50": true
+    },
+    "images": ["assets/products/dt2000-1.webp", "assets/products/dt2000-2.webp"],
+    "createdAt": "2025-03-01T00:00:00Z"
+  }
+]
