@@ -29,7 +29,6 @@
     "images": ["assets/products/dt300-1.webp", "assets/products/dt300-2.webp"],
     "createdAt": "2025-01-15T00:00:00Z"
   },
-
   {
     "id": "dt-500",
     "model": "DT-500",
@@ -60,7 +59,6 @@
     "images": ["assets/products/dt500-1.webp", "assets/products/dt500-2.webp"],
     "createdAt": "2025-01-20T00:00:00Z"
   },
-
   {
     "id": "dt-700",
     "model": "DT-700",
@@ -91,7 +89,6 @@
     "images": ["assets/products/dt700-1.webp", "assets/products/dt700-2.webp"],
     "createdAt": "2025-02-10T00:00:00Z"
   },
-
   {
     "id": "dt-1000",
     "model": "DT-1000",
@@ -122,7 +119,6 @@
     "images": ["assets/products/dt1000-1.webp", "assets/products/dt1000-2.webp"],
     "createdAt": "2025-02-15T00:00:00Z"
   },
-
   {
     "id": "dt-2000",
     "model": "DT-2000",
